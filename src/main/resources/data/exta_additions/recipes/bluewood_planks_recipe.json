@@ -1,0 +1,13 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bluewood_log"
+    }
+  ],
+  "result": {
+    "item": "exta_additions:bluewood_planks",
+    "count": 4
+  }
+}

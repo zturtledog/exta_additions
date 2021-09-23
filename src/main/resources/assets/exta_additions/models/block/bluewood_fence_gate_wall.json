@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "exta_additions:blocks/bluewood_planks"
+  }
+}

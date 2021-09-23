@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "exta_additions:blocks/bluewood_planks",
+    "particle": "exta_additions:blocks/bluewood_planks"
+  }
+}

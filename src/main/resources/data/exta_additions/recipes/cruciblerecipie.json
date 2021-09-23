@@ -1,0 +1,42 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sandstone"
+    },
+    "1": {
+      "item": "minecraft:cobblestone"
+    },
+    "2": {
+      "item": "minecraft:sandstone"
+    },
+    "3": {
+      "item": "minecraft:sandstone"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "minecraft:sandstone"
+    },
+    "6": {
+      "item": "minecraft:bricks"
+    },
+    "7": {
+      "item": "minecraft:bricks"
+    },
+    "8": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "exta_additions:crucible",
+    "count": 1
+  }
+}

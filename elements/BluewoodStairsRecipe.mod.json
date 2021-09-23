@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BluewoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BluewoodStairs"
+    },
+    "name": "bluewood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

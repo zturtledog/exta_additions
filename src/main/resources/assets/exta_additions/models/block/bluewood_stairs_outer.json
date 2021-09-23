@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "exta_additions:blocks/bluewood_planks",
+    "top": "exta_additions:blocks/bluewood_planks",
+    "side": "exta_additions:blocks/bluewood_planks"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "1": {
+      "item": "exta_additions:bluewood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

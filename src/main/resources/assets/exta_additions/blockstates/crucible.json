@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "exta_additions:block/crucible"
+    },
+    "facing=east": {
+      "model": "exta_additions:block/crucible",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "exta_additions:block/crucible",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exta_additions:block/crucible",
+      "y": 270
+    }
+  }
+}

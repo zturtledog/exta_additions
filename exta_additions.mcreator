@@ -1,0 +1,816 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Cruciblegui",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cruciblegui",
+      "path": "~/macines"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "log_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fence_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_fence_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wall_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_flower_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valid_spawn_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impermeable_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beacon_base_block_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leave_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "climbable_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_immune_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_immune_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arrow_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tick_functions",
+      "path": "~/tags"
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "load_functions",
+      "path": "~/tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arrow_entities",
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impact_projectile_entities",
+      "path": "~/tags"
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beehive_inhabitor_entities",
+      "path": "~/tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raider_entities",
+      "path": "~/tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleton_entities",
+      "path": "~/tags"
+    },
+    {
+      "name": "CrucibleUpdateTick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crucible_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "Crucible",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crucible",
+      "path": "~/macines"
+    },
+    {
+      "name": "Cruciblerecipie",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cruciblerecipie",
+      "path": "~/macines"
+    },
+    {
+      "name": "IronBricks",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_bricks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "RozenGlass",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rozen_glass",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Darkbricks",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkbricks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedDarkbricks",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_darkbricks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Darkbricksrecp",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkbricksrecp",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedDarkbricksrecp",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_darkbricksrecp",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozenglassrecp",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rozenglassrecp",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Nametag",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nametag",
+      "path": "~/recipies"
+    },
+    {
+      "name": "Interfacebjrk",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "interfacebjrk",
+      "path": "~/macines"
+    },
+    {
+      "name": "Interfacegui",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "interfacegui",
+      "path": "~/macines"
+    },
+    {
+      "name": "Skybeam",
+      "type": "particle",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skybeam",
+      "path": "~/particles"
+    },
+    {
+      "name": "Blooshgrassblock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blooshgrassblock",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Bloosh",
+      "type": "biome",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloosh",
+      "path": "~/biomes"
+    },
+    {
+      "name": "BluewoodWood",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_wood",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodLog",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_log",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodPlanks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_planks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodLeaves",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_leaves",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodStairs",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_stairs",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodSlab",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_slab",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodFence",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_fence",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodFenceGate",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_fence_gate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodPressurePlate",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_pressure_plate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodButton",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_button",
+      "path": "~/blocks"
+    },
+    {
+      "name": "BluewoodItemsTag",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_items_tag",
+      "path": "~/tags"
+    },
+    {
+      "name": "BluewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_wood_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_planks_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_stairs_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_slab_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_fence_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_fence_gate_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_pressure_plate_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_button_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "BluewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluewood_stick_recipe",
+      "path": "~/recipies"
+    },
+    {
+      "name": "Polypy",
+      "type": "particle",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polypy",
+      "path": "~/particles"
+    },
+    {
+      "name": "Polyp",
+      "type": "dimension",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polyp",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/dimensions"
+    },
+    {
+      "name": "Source",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "source",
+      "path": "~/macines"
+    },
+    {
+      "name": "Portaligniter",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portaligniter",
+      "path": "~/recipies"
+    },
+    {
+      "name": "StoneRemovalTechnicalExplosiveOnInit",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_removal_technical_explosive_on_init",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "SRTE",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "srte",
+      "path": "~/macines"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.exta_additions.bluewood_slab": "Bluewood Slab",
+      "block.exta_additions.darkbricks": "Darkbricks",
+      "block.exta_additions.blooshgrassblock": "Blooshgrassblock",
+      "biome.exta_additions.bloosh": "Bloosh",
+      "block.exta_additions.bluewood_fence": "Bluewood Fence",
+      "block.exta_additions.bluewood_pressure_plate": "Bluewood Pressure Plate",
+      "block.exta_additions.source": "Source",
+      "block.exta_additions.rozen_glass": "Rozen Glass",
+      "block.exta_additions.bluewood_wood": "Bluewood Wood",
+      "block.exta_additions.cracked_darkbricks": "Cracked Darkbricks",
+      "block.exta_additions.bluewood_planks": "Bluewood Planks",
+      "block.exta_additions.bluewood_leaves": "Bluewood Leaves",
+      "block.exta_additions.srte": "SRTE",
+      "block.exta_additions.bluewood_button": "Bluewood Button",
+      "item.exta_additions.polyp": "Polyp Portal Igniter",
+      "block.exta_additions.interfacebjrk": "Interface",
+      "block.exta_additions.crucible": "Crucible",
+      "block.exta_additions.bluewood_log": "Bluewood Log",
+      "block.exta_additions.bluewood_fence_gate": "Bluewood Fence Gate",
+      "block.exta_additions.iron_bricks": "Iron Bricks",
+      "block.exta_additions.bluewood_stairs": "Bluewood Stairs"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "tags",
+        "children": []
+      },
+      {
+        "name": "macines",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "biomes",
+        "children": []
+      },
+      {
+        "name": "recipies",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "dimensions",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "exta_additions",
+    "modName": "exta additions",
+    "version": "1.0.0",
+    "author": "nycas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.extaadditions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

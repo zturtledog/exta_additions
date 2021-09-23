@@ -1,0 +1,19 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "1": {
+      "item": "exta_additions:bluewood_planks"
+    }
+  },
+  "result": {
+    "item": "exta_additions:bluewood_pressure_plate",
+    "count": 1
+  }
+}

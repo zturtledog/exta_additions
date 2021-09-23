@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "exta_additions:blocks/bluewood_planks"
+  }
+}

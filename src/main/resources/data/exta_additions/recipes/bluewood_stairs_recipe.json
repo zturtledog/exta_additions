@@ -1,0 +1,33 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "3": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "4": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "6": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "7": {
+      "item": "exta_additions:bluewood_planks"
+    },
+    "8": {
+      "item": "exta_additions:bluewood_planks"
+    }
+  },
+  "result": {
+    "item": "exta_additions:bluewood_stairs",
+    "count": 4
+  }
+}

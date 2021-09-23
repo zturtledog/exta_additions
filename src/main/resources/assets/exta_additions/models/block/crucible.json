@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/crucible_side",
+    "up": "exta_additions:blocks/crucible_side",
+    "north": "exta_additions:blocks/crucible_front",
+    "east": "exta_additions:blocks/crucible_side",
+    "south": "exta_additions:blocks/crucible_side",
+    "west": "exta_additions:blocks/crucible_side",
+    "particle": "exta_additions:blocks/crucible_side"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "exta_additions:custom/bluegrass",
+  "textures": {
+    "all": "exta_additions:blocks/blooshgrassblock",
+    "particle": "exta_additions:blocks/blooshgrassblock",
+    "0": "exta_additions:blocks/blooshgrassblock"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "exta_additions:rozen_glass",
+    "count": 1
+  }
+}

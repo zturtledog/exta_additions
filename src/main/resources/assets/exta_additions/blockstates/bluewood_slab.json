@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "exta_additions:block/bluewood_slab"
+    },
+    "type=top": {
+      "model": "exta_additions:block/bluewood_slab_top"
+    },
+    "type=double": {
+      "model": "exta_additions:block/bluewood_slab_full"
+    }
+  }
+}
