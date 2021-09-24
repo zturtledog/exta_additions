@@ -733,6 +733,127 @@
       "ids": {},
       "registry_name": "srte",
       "path": "~/macines"
+    },
+    {
+      "name": "CC0BonLock",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_bon_lock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CC0BGUI",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_bgui"
+    },
+    {
+      "name": "CC0BUpdateTick",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_b_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CC0BRedstoneOff",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_b_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CC0BRedstoneOn",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_b_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CC0B",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc_0_b"
     }
   ],
   "variable_elements": [],
@@ -754,6 +875,7 @@
       "block.exta_additions.srte": "SRTE",
       "block.exta_additions.bluewood_button": "Bluewood Button",
       "item.exta_additions.polyp": "Polyp Portal Igniter",
+      "block.exta_additions.cc_0_b": "computer",
       "block.exta_additions.interfacebjrk": "Interface",
       "block.exta_additions.crucible": "Crucible",
       "block.exta_additions.bluewood_log": "Bluewood Log",

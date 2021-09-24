@@ -1,0 +1,71 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "file-name",
+          "width": 120,
+          "height": 20,
+          "name": "file_name",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "lock",
+          "onClick": {
+            "name": "CC0BonLock"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "lock",
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "current: <BNBT:text:file>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "current: <BNBT:text:file>",
+          "x": 150,
+          "y": 152
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "file-path",
+          "width": 120,
+          "height": 20,
+          "name": "file_path",
+          "x": 150,
+          "y": 53
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
