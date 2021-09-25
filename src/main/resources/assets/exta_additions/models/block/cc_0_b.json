@@ -1,12 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "exta_additions:custom/computer",
   "textures": {
-    "down": "exta_additions:blocks/placeholder",
-    "up": "exta_additions:blocks/placeholder",
-    "north": "exta_additions:blocks/placeholder",
-    "east": "exta_additions:blocks/placeholder",
-    "south": "exta_additions:blocks/placeholder",
-    "west": "exta_additions:blocks/placeholder",
-    "particle": "exta_additions:blocks/placeholder"
+    "all": "exta_additions:blocks/computer",
+    "particle": "exta_additions:blocks/computer",
+    "0": "exta_additions:blocks/computer"
   }
 }

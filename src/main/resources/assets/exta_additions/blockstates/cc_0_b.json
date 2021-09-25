@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "exta_additions:block/cc_0_b"
+    },
+    "facing=east": {
+      "model": "exta_additions:block/cc_0_b",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "exta_additions:block/cc_0_b",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exta_additions:block/cc_0_b",
+      "y": 270
     }
   }
 }
