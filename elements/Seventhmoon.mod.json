@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "seventhmoon",
+    "name": "Seventhmoon",
+    "description": "disc made from the seventh moon",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:seventhmoon"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

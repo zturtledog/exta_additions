@@ -319,7 +319,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cruciblerecipie",
-      "path": "~/macines"
+      "path": "~/recipies"
     },
     {
       "name": "IronBricks",
@@ -1079,7 +1079,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "ComintrRedstoneOff",
@@ -1108,7 +1109,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "ComintrUpdateTick",
@@ -1137,36 +1139,192 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "Seventhmoon",
+      "type": "musicdisc",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seventhmoon",
+      "path": "~/music"
+    },
+    {
+      "name": "Cpu",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cpu",
+      "path": "~/items"
+    },
+    {
+      "name": "Capacitor",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "capacitor",
+      "path": "~/items"
+    },
+    {
+      "name": "Transistor",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transistor",
+      "path": "~/items"
+    },
+    {
+      "name": "Copperingot",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperingot",
+      "path": "~/items"
+    },
+    {
+      "name": "Plastic",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastic",
+      "path": "~/items"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/fluid"
+    },
+    {
+      "name": "Raerdust",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raerdust",
+      "path": "~/items"
+    },
+    {
+      "name": "AssemblerGUI",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "assembler_gui",
+      "path": "~/macines"
+    },
+    {
+      "name": "Biopolymer",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biopolymer",
+      "path": "~/items"
+    },
+    {
+      "name": "AssemblerUpdateTick",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "assembler_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "seventhmoon",
+      "files": [
+        "eropias7thmoon"
+      ],
+      "category": "record",
+      "subtitle": "seventh moon"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.exta_additions.bluewood_slab": "Bluewood Slab",
-      "block.exta_additions.darkbricks": "Darkbricks",
-      "block.exta_additions.blooshgrassblock": "Blooshgrassblock",
-      "biome.exta_additions.bloosh": "Bloosh",
+      "item.exta_additions.seventhmoon.desc": "disc made from the seventh moon",
+      "item.exta_additions.copperingot": "Copperingot",
       "block.exta_additions.bluewood_fence": "Bluewood Fence",
       "block.exta_additions.bluewood_pressure_plate": "Bluewood Pressure Plate",
-      "block.exta_additions.source": "Source",
-      "block.exta_additions.rozen_glass": "Rozen Glass",
+      "block.exta_additions.oil": "Oil",
       "block.exta_additions.bluewood_wood": "Bluewood Wood",
-      "block.exta_additions.cracked_darkbricks": "Cracked Darkbricks",
       "block.exta_additions.bluewood_planks": "Bluewood Planks",
       "block.exta_additions.bluewood_leaves": "Bluewood Leaves",
-      "block.exta_additions.srte": "SRTE",
-      "block.exta_additions.comintr": "Comintr",
       "block.exta_additions.bluewood_button": "Bluewood Button",
       "item.exta_additions.polyp": "Polyp Portal Igniter",
       "block.exta_additions.cc_0_b": "computer",
+      "item.exta_additions.plastic": "Plastic",
       "block.exta_additions.interfacebjrk": "Interface",
       "block.exta_additions.crucible": "Crucible",
-      "block.exta_additions.bluewood_log": "Bluewood Log",
-      "block.exta_additions.bluewood_fence_gate": "Bluewood Fence Gate",
+      "item.exta_additions.cpu": "Cpu",
       "block.exta_additions.iron_bricks": "Iron Bricks",
-      "block.exta_additions.bluewood_stairs": "Bluewood Stairs"
+      "item.exta_additions.oil_bucket": "Oil Bucket",
+      "item.exta_additions.biopolymer": "Bio-polymer",
+      "block.exta_additions.bluewood_stairs": "Bluewood Stairs",
+      "block.exta_additions.darkbricks": "Darkbricks",
+      "block.exta_additions.blooshgrassblock": "Blooshgrassblock",
+      "biome.exta_additions.bloosh": "Bloosh",
+      "item.exta_additions.raerdust": "Raerdust",
+      "item.exta_additions.capacitor": "Capacitor",
+      "fluid.exta_additions.oil": "Oil",
+      "block.exta_additions.source": "Source",
+      "subtitles.seventhmoon": "seventh moon",
+      "block.exta_additions.rozen_glass": "Rozen Glass",
+      "item.exta_additions.seventhmoon": "Seventhmoon",
+      "block.exta_additions.cracked_darkbricks": "Cracked Darkbricks",
+      "block.exta_additions.srte": "SRTE",
+      "block.exta_additions.comintr": "Comintr",
+      "item.exta_additions.transistor": "Transistor",
+      "block.exta_additions.bluewood_log": "Bluewood Log",
+      "block.exta_additions.bluewood_fence_gate": "Bluewood Fence Gate"
     }
   },
   "foldersRoot": {
@@ -1198,6 +1356,18 @@
       },
       {
         "name": "dimensions",
+        "children": []
+      },
+      {
+        "name": "music",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "fluid",
         "children": []
       }
     ]

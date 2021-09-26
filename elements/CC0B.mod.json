@@ -10,7 +10,7 @@
     "textureBack": "placeholder",
     "renderType": 2,
     "customModelName": "computer:default",
-    "rotationMode": 3,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -37,7 +37,7 @@
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },

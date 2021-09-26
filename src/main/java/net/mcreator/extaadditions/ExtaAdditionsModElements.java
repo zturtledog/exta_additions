@@ -45,6 +45,8 @@ public class ExtaAdditionsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ExtaAdditionsModElements() {
+		sounds.put(new ResourceLocation("exta_additions", "seventhmoon"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("exta_additions", "seventhmoon")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("exta_additions").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

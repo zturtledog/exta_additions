@@ -17,6 +17,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
@@ -31,8 +32,10 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.BooleanProperty;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
@@ -48,6 +51,8 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
@@ -55,6 +60,7 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.IWaterLoggable;
 import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -104,18 +110,19 @@ public class CC0BBlock extends ExtaAdditionsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 			setRegistryName("cc_0_b");
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
 		}
 
 		@Override
@@ -125,7 +132,7 @@ public class CC0BBlock extends ExtaAdditionsModElements.ModElement {
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
+			builder.add(FACING, WATERLOGGED);
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -138,10 +145,22 @@ public class CC0BBlock extends ExtaAdditionsModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			if (context.getFace() == Direction.UP || context.getFace() == Direction.DOWN)
-				return this.getDefaultState().with(FACING, Direction.NORTH);
-			return this.getDefaultState().with(FACING, context.getFace());
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+		}
+
+		@Override
+		public FluidState getFluidState(BlockState state) {
+			return state.get(WATERLOGGED) ? Fluids.WATER.getStillFluidState(false) : super.getFluidState(state);
+		}
+
+		@Override
+		public BlockState updatePostPlacement(BlockState state, Direction facing, BlockState facingState, IWorld world, BlockPos currentPos,
+				BlockPos facingPos) {
+			if (state.get(WATERLOGGED)) {
+				world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+			}
+			return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
 		}
 
 		@Override

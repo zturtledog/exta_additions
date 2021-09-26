@@ -1,1 +1,12 @@
-{}
+{
+  "seventhmoon": {
+    "category": "record",
+    "subtitle": "subtitles.seventhmoon",
+    "sounds": [
+      {
+        "name": "exta_additions:eropias7thmoon",
+        "stream": true
+      }
+    ]
+  }
+}
