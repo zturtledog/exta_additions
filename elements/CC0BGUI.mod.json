@@ -18,7 +18,7 @@
           "height": 20,
           "name": "file_name",
           "x": 150,
-          "y": 80
+          "y": 98
         }
       },
       {
@@ -32,7 +32,7 @@
           "height": 20,
           "name": "lock",
           "x": 150,
-          "y": 116
+          "y": 134
         }
       },
       {
@@ -45,7 +45,7 @@
           },
           "name": "current: <BNBT:text:file>",
           "x": 150,
-          "y": 152
+          "y": 170
         }
       },
       {
@@ -56,7 +56,20 @@
           "height": 20,
           "name": "file_path",
           "x": 150,
-          "y": 53
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "computi boi",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "computi boi",
+          "x": 132,
+          "y": 44
         }
       }
     ],

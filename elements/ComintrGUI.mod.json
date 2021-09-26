@@ -1,0 +1,179 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "nbt name",
+          "width": 120,
+          "height": 20,
+          "name": "nbtname",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "lock",
+          "onClick": {
+            "name": "ComintrLock"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "lock",
+          "x": 150,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "current: <BNBT:text:lock>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "current: <BNBT:text:lock>",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "interface",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "interface",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "side",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "side",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "N",
+          "onClick": {
+            "name": "ComintrN"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "N",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "S",
+          "onClick": {
+            "name": "ComintrS"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "S",
+          "x": 240,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "E",
+          "onClick": {
+            "name": "ComintrE"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "E",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "W",
+          "onClick": {
+            "name": "ComintrW"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "W",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "side: <BNBT:text:side>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "side: <BNBT:text:side>",
+          "x": 141,
+          "y": 179
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "value",
+          "width": 120,
+          "height": 20,
+          "name": "value",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "value: <BNBT:text:value>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "value: <BNBT:text:value>",
+          "x": 141,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

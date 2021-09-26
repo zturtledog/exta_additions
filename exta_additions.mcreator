@@ -765,7 +765,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "CC0BGUI",
@@ -774,7 +775,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cc_0_bgui"
+      "registry_name": "cc_0_bgui",
+      "path": "~/macines"
     },
     {
       "name": "CC0BUpdateTick",
@@ -803,7 +805,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "CC0BRedstoneOff",
@@ -832,7 +835,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "CC0BRedstoneOn",
@@ -861,7 +865,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/macines"
     },
     {
       "name": "CC0B",
@@ -870,7 +875,269 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cc_0_b"
+      "registry_name": "cc_0_b",
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrGUI",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_gui",
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrLock",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_lock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrN",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_n",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrS",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_s",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrE",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_e",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrW",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_w",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/macines"
+    },
+    {
+      "name": "Comintr",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr",
+      "path": "~/macines"
+    },
+    {
+      "name": "ComintrRedstoneOn",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ComintrRedstoneOff",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ComintrUpdateTick",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comintr_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -890,6 +1157,7 @@
       "block.exta_additions.bluewood_planks": "Bluewood Planks",
       "block.exta_additions.bluewood_leaves": "Bluewood Leaves",
       "block.exta_additions.srte": "SRTE",
+      "block.exta_additions.comintr": "Comintr",
       "block.exta_additions.bluewood_button": "Bluewood Button",
       "item.exta_additions.polyp": "Polyp Portal Igniter",
       "block.exta_additions.cc_0_b": "computer",

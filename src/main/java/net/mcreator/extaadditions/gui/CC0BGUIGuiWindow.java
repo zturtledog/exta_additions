@@ -93,7 +93,8 @@ public class CC0BGUIGuiWindow extends ContainerScreen<CC0BGUIGui.GuiContainerMod
 					return tileEntity.getTileData().getString(tag);
 				return "";
 			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "file")) + "", 24, 115, -12829636);
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "file")) + "", 24, 133, -12829636);
+		this.font.drawString(ms, "computi boi", 6, 7, -12829636);
 	}
 
 	@Override
@@ -106,7 +107,7 @@ public class CC0BGUIGuiWindow extends ContainerScreen<CC0BGUIGui.GuiContainerMod
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		file_name = new TextFieldWidget(this.font, this.guiLeft + 24, this.guiTop + 43, 120, 20, new StringTextComponent("file-name")) {
+		file_name = new TextFieldWidget(this.font, this.guiLeft + 24, this.guiTop + 61, 120, 20, new StringTextComponent("file-name")) {
 			{
 				setSuggestion("file-name");
 			}
@@ -131,13 +132,13 @@ public class CC0BGUIGuiWindow extends ContainerScreen<CC0BGUIGui.GuiContainerMod
 		guistate.put("text:file_name", file_name);
 		file_name.setMaxStringLength(32767);
 		this.children.add(this.file_name);
-		this.addButton(new Button(this.guiLeft + 24, this.guiTop + 79, 45, 20, new StringTextComponent("lock"), e -> {
+		this.addButton(new Button(this.guiLeft + 24, this.guiTop + 97, 45, 20, new StringTextComponent("lock"), e -> {
 			if (true) {
 				ExtaAdditionsMod.PACKET_HANDLER.sendToServer(new CC0BGUIGui.ButtonPressedMessage(0, x, y, z));
 				CC0BGUIGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		file_path = new TextFieldWidget(this.font, this.guiLeft + 24, this.guiTop + 16, 120, 20, new StringTextComponent("file-path")) {
+		file_path = new TextFieldWidget(this.font, this.guiLeft + 24, this.guiTop + 25, 120, 20, new StringTextComponent("file-path")) {
 			{
 				setSuggestion("file-path");
 			}

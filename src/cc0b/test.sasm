@@ -1,5 +1,9 @@
 LNbTA localstoreA
 print hello world!
-expNA 78
+incNA 1
+mulNA 78
 print [A]
 NbtSA localstoreA
+setSA ckmk
+ifSrA ckmk
+ifArF wow
