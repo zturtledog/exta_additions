@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/duipyur_leaves",
+    "up": "exta_additions:blocks/duipyur_leaves",
+    "north": "exta_additions:blocks/duipyur_leaves",
+    "east": "exta_additions:blocks/duipyur_leaves",
+    "south": "exta_additions:blocks/duipyur_leaves",
+    "west": "exta_additions:blocks/duipyur_leaves",
+    "particle": "exta_additions:blocks/duipyur_leaves"
+  }
+}

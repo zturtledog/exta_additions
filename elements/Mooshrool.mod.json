@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Fungalforest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Myceliusstone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Sporewater"
+    },
+    "airColor": {
+      "value": -364427449,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Mushroolcap"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Mooshrool Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "alliheariscrabs",
+    "portalTexture": "stemmmmtopside",
+    "enablePortal": true
+  }
+}

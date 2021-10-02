@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/copper",
+    "up": "exta_additions:blocks/copper",
+    "north": "exta_additions:blocks/copper",
+    "east": "exta_additions:blocks/copper",
+    "south": "exta_additions:blocks/copper",
+    "west": "exta_additions:blocks/copper",
+    "particle": "exta_additions:blocks/copper"
+  }
+}

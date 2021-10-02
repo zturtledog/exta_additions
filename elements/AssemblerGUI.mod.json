@@ -86,8 +86,21 @@
             "falpha": 0.0
           },
           "name": "<BNBT:text:prog>",
-          "x": 159,
-          "y": 71
+          "x": 161,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Assembler",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Assembler",
+          "x": 249,
+          "y": 44
         }
       }
     ],

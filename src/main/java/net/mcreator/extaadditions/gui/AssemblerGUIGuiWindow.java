@@ -78,7 +78,8 @@ public class AssemblerGUIGuiWindow extends ContainerScreen<AssemblerGUIGui.GuiCo
 					return tileEntity.getTileData().getString(tag);
 				return "";
 			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "prog")) + "", 33, 34, -12829636);
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "prog")) + "", 35, 38, -12829636);
+		this.font.drawString(ms, "Assembler", 123, 7, -12829636);
 	}
 
 	@Override

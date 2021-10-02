@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exta_additions:blocks/duipyur_planks",
+    "particle": "exta_additions:blocks/duipyur_planks"
+  }
+}

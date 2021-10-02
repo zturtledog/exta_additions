@@ -1,0 +1,13 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exta_additions:duipyur_planks"
+    }
+  ],
+  "result": {
+    "item": "exta_additions:duipyur_button",
+    "count": 1
+  }
+}

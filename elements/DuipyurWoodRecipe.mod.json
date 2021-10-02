@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DuipyurLog"
+      },
+      {
+        "value": "CUSTOM:DuipyurLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DuipyurLog"
+      },
+      {
+        "value": "CUSTOM:DuipyurLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DuipyurWood"
+    },
+    "name": "duipyur_wood_recipe",
+    "namespace": "mod"
+  }
+}

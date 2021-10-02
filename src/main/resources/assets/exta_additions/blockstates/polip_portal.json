@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "exta_additions:block/polip_portal_ew"
+    },
+    "axis=x": {
+      "model": "exta_additions:block/polip_portal_ns"
+    }
+  }
+}

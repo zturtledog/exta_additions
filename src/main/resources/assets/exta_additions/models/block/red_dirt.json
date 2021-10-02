@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/redirt",
+    "up": "exta_additions:blocks/redirt",
+    "north": "exta_additions:blocks/redirt",
+    "east": "exta_additions:blocks/redirt",
+    "south": "exta_additions:blocks/redirt",
+    "west": "exta_additions:blocks/redirt",
+    "particle": "exta_additions:blocks/redirt"
+  }
+}

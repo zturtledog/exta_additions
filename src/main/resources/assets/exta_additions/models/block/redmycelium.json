@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/redirt",
+    "up": "exta_additions:blocks/redmycyliustop",
+    "north": "exta_additions:blocks/redmyceliumside",
+    "east": "exta_additions:blocks/redmyceliumside",
+    "south": "exta_additions:blocks/redmyceliumside",
+    "west": "exta_additions:blocks/redmyceliumside",
+    "particle": "exta_additions:blocks/redirt"
+  }
+}

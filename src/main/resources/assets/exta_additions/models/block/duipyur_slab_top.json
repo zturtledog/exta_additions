@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "exta_additions:blocks/duipyur_planks_rest",
+    "top": "exta_additions:blocks/duipyur_planks_rest",
+    "side": "exta_additions:blocks/duipyur_planks_rest"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "exta_additions:block/duipyur_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "exta_additions:block/duipyur_log"
+    },
+    "axis=z": {
+      "model": "exta_additions:block/duipyur_log",
+      "x": 90
+    }
+  }
+}

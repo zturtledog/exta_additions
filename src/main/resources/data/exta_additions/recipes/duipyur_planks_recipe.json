@@ -1,0 +1,13 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:duipyur_log"
+    }
+  ],
+  "result": {
+    "item": "exta_additions:duipyur_planks",
+    "count": 4
+  }
+}

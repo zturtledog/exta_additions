@@ -1,0 +1,26 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "exta_additions:duipyur_log"
+    },
+    "1": {
+      "item": "exta_additions:duipyur_log"
+    },
+    "2": {
+      "item": "exta_additions:duipyur_log"
+    },
+    "3": {
+      "item": "exta_additions:duipyur_log"
+    }
+  },
+  "result": {
+    "item": "exta_additions:duipyur_wood",
+    "count": 3
+  }
+}

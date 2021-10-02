@@ -1,0 +1,22 @@
+{
+  "group": "exta_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "exta_additions:duipyur_planks"
+    },
+    "1": {
+      "item": "exta_additions:duipyur_planks"
+    },
+    "2": {
+      "item": "exta_additions:duipyur_planks"
+    }
+  },
+  "result": {
+    "item": "exta_additions:duipyur_slab",
+    "count": 6
+  }
+}

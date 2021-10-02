@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/mushroomcap",
+    "up": "exta_additions:blocks/mushroomcap",
+    "north": "exta_additions:blocks/mushroomcap",
+    "east": "exta_additions:blocks/mushroomcap",
+    "south": "exta_additions:blocks/mushroomcap",
+    "west": "exta_additions:blocks/mushroomcap",
+    "particle": "exta_additions:blocks/mushroomcap"
+  }
+}

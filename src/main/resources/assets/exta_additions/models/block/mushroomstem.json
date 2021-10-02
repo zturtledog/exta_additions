@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exta_additions:blocks/mushroomstemtop",
+    "up": "exta_additions:blocks/mushroomstemtop",
+    "north": "exta_additions:blocks/mushroomstemside",
+    "east": "exta_additions:blocks/mushroomstemside",
+    "south": "exta_additions:blocks/mushroomstemside",
+    "west": "exta_additions:blocks/mushroomstemside",
+    "particle": "exta_additions:blocks/mushroomstemtop"
+  }
+}
